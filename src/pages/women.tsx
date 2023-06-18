@@ -52,7 +52,7 @@ export default function Women() {
     >
 
 <div id="text" className='flex flex-col '>
-<h1 className={`${titillium.className} font-black text-2xl`}>Just Do It.</h1>
+<h2 className={`${titillium.className} font-black text-2xl`}>Just Do It.</h2>
 
 <p className={`${titillium.className} font-bold italic text-xl`}>
 {"//"} GEAR UP FOR TRAINING, SPORT & LIFESTYLE --- <FaRegGem className='inline' size={25} fill='#f63ebc'/>

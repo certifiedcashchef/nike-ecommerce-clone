@@ -34,9 +34,9 @@ export default function Men() {
           className="h-screen flex flex-col justify-center gap-3 lg:gap-0 lg:flex-row items-center"
         >
           <div id="text" className="flex flex-col ">
-            <h1 className={`${titillium.className} font-black text-2xl`}>
+            <h2 className={`${titillium.className} font-black text-2xl`}>
               Just Do It.
-            </h1>
+            </h2>
             <p className={`${titillium.className} font-bold italic text-xl`}>
               {"//"} BASED ON OUR CUSTOMERS FEEDBACKS NIKE IS THE BEST CHOICE
               FOR NBA PLAYERS ---{" "}

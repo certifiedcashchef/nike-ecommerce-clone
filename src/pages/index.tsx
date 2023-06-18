@@ -50,14 +50,14 @@ export default function Home() {
       className="h-screen flex justify-center md:justify-around items-center"
     >
       <div id="heroText" className=' min-w-fit'>
-        <h1 className={`${roboto.className} text-xl `}>
+        <h2 className={`${roboto.className} text-xl `}>
           THE NEW COLLECTION
-        </h1>
-        <h1
-          className={`${titillium.className} flex items-center text-4xl md:text-4xl font-black gap-1 `}
+        </h2>
+        <h2
+          className={`${titillium.className} flex items-center whitespace-nowrap text-4xl font-black gap-1 `}
         >
-          IS FINALLY HERE <GiBurningMeteor size={30} />
-        </h1>
+          IS FINALLY HERE <GiBurningMeteor className='inline' size={30} />
+        </h2>
       </div>
       <SiJordan size={600} className="hidden md:block " />
     </section>
