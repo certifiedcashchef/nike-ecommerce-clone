@@ -62,12 +62,6 @@ const MobileNavModal = ({
             <li className="hover:opacity-70 text-2xl border-t-2 border-b-2 border-gray-200/70 py-3 cursor-pointer">
               <Link href="women">Women</Link>
             </li>
-            <li className="hover:opacity-70 text-2xl border-t-2 border-b-2 border-gray-200/70 py-3 cursor-pointer">
-              <Link href="news">News</Link>
-            </li>
-            <li className="hover:opacity-70 text-2xl border-t-2 border-b-2 border-gray-200/70 py-3 cursor-pointer">
-              <Link href="sale">Discount & Sale</Link>
-            </li>
           </ul>
         </nav>
       </div>

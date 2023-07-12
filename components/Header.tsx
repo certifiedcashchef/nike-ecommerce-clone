@@ -41,12 +41,6 @@ const Header = ({ handleOpenModal }: { handleOpenModal: () => void }) => {
           <li className="hover:opacity-70">
             <Link href="women">Women</Link>
           </li>
-          <li className="hover:opacity-70">
-            <Link href="news">News</Link>
-          </li>
-          <li className="hover:opacity-70">
-            <Link href="sale">Discount & Sale</Link>
-          </li>
         </ul>
       </nav>
 

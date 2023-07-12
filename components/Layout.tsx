@@ -72,7 +72,7 @@ Router.events.on("routeChangeComplete", ()=> {
 {loading ? <Loading /> : null}
 
       <Header handleOpenModal={handleOpenModal} />
-      <div className="h-fit w-full text-center bg-[#f6c23e]"><h1 className={`${bebas.className} text-2xl`}>THIS WEBSITE IN UNDER CONSTRUCTION, AND NOT COMPLETED YET.</h1></div>
+      {/* <div className="h-fit w-full text-center bg-[#f6c23e]"><h1 className={`${bebas.className} text-2xl`}>THIS WEBSITE IN UNDER CONSTRUCTION, AND NOT COMPLETED YET.</h1></div> */}
 {isOpen && (
 
           <MobileNavModal handleCloseModal={handleCloseModal} />

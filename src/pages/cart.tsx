@@ -183,15 +183,19 @@ export default function Checkout() {
                 </div>
                 <div id="btns" className={`${bebas.className} flex w-full gap-4 mt-3`}> 
 
-<h1
+<h3
               className={` py-2 px-6 w-[50%] active:scale-95 transition-transform rounded-full hover:opacity-75 hover:cursor-pointer bg-[#f5f5f7] flex items-center  justify-center text-[#f63e3e] `}
               onClick={() => dispatch(clear())}
             >
               CLEAR
-            </h1>
-<h1 className="bg-[#1d1d1f] active:scale-95 transition-transform rounded-full py-2 px-6 hover:opacity-75 w-[50%] hover:cursor-pointer text-[#f5f5f7] flex items-center  justify-center">
+            </h3>
+
+            <Link href="succeeded" className="bg-[#1d1d1f] active:scale-95 transition-transform rounded-full py-2 px-6 hover:opacity-75 w-[50%] text-[#f5f5f7] flex items-center  justify-center">
+
+<h3>
   CHECKOUT
-  </h1> 
+  </h3> 
+            </Link>
 
 
 
